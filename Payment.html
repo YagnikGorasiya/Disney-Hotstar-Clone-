@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+    <style>
+        /* Styles for the close button */
+        .close-button {
+            position: absolute;
+            top: 35px;
+            right: 80px;
+            background-color: #7d2ae8;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        /* Styles for the container */
+        .container {
+            position: relative;
+        }
+        /* Rest of your styles */
+        /* Add more CSS as needed */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form class="modal" action="#" method="post">
+            <a href="3.html" class="close-button"> Close</a>
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Personal Information</h3>
+                    <div class="input-box">
+                        <span>Full Name :</span>
+                        <input type="text" name="fullname"  required>
+                    </div>
+
+                    <div class="input-box">
+                        <span>Email:</span>
+                        <input type="email" name="email"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>Address :</span>
+                        <input type="text" name="address"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>City :</span>
+                        <input type="text" name="city"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>State :</span>
+                        <input type="text" name="state"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>Pin Code :</span>
+                        <input type="number" name="pincode"  required>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="title">Payment Information (₹30-₹240-₹500/1M-6M-1Y)</h3>
+                    <div class="input-box">
+                        <span>Card Accepted :</span>
+                        <img src="assets/Images/cardImg.jpg" alt="Cards">
+                    </div>
+
+                    <div class="input-box">
+                        <span>Name On Card :</span>
+                        <input type="text" name="cardname"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>Card Number :</span>
+                        <input type="text" name="cardnumber"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>Expiry Month :</span>
+                        <input type="text" name="expmonth"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>Expiry Year :</span>
+                        <input type="text" name="expyear"  required>
+                    </div>
+                    <div class="input-box">
+                        <span>CVV :</span>
+                        <input type="number" name="cvv"  required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

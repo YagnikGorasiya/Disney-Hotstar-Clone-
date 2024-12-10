@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="style3.css">
+    <!-- <script src="Modal.js"></script>
+    <link rel="stylesheet" href="Modal.css"> -->
+    <title>Disney+ Hotstar</title>
+    <link rel="icon" type="image/x-iocn" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6_Nu0qw2uvCULA3yDqv5P1X3nvUNnpamlgg&s"</head>
+
+<body>
+    <nav class="navbar">
+        <img src="logo-d-plus.svg" class="brand-logo" alt="">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">movies</a></li>
+            <li class="nav-items"><a href="#">sports</a></li>
+            <li class="nav-items"><a href="#">categories</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <a href="Payment.html" style="text-decoration: none;" class="sub-btn">subscribe</a>
+            <a href="login.html" class="login-link">Login/SignUp</a>
+        </div>
+    </nav>
+
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus soluta, quasi in dignissimos saepe, alias nobis magnam vitae sunt voluptas eum necessitatibus delectus dicta qui rem debitis laboriosam.</p>
+                </div>
+                <img src="maxresdefault.jpg" alt="">
+            </div> -->
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <a href="disney.html" id="demo">
+            <div class="video-card">
+                <img id="disneyIMG" src="assets/Images/disney.PNG" class="video-card-image" alt="">
+                <video src="assets/Images/disney.mp4" mute loop class="card-video"></video>
+            </div>
+        </a>
+        <a href="pixar.html" id="demo">
+            <div class="video-card">
+                <img src="assets/Images/pixar.PNG" class="video-card-image" alt="">
+                <video src="assets/Images/pixar.mp4" mute loop class="card-video"></video>
+            </div>
+        </a>
+        <a href="marvel.html" id="demo">
+            <div class="video-card">
+                <img src="assets/Images/marvel.PNG" class="video-card-image" alt="">
+                <video src="assets/Images/marvel.mp4" mute loop class="card-video"></video>
+            </div>
+        </a>
+        <a href="star.html" id="demo">
+            <div class="video-card">
+                <img src="assets/Images/star-wars.PNG" class="video-card-image" alt="">
+                <video src="assets/Images/star-war.mp4" mute loop class="card-video"></video>
+            </div>
+        </a>
+        <a href="national.html" id="demo">
+            <div class="video-card">
+                <img src="assets/Images/geographic.PNG" class="video-card-image" alt="">
+                <video src="assets/Images/geographic.mp4" mute loop class="card-video"></video>
+            </div>
+
+        </a>
+
+    </div>
+
+    <h1 class="title">Latest Releases</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="./assets/Images/LR1.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Salaar</h2>
+                    <h6 class="des">Action Thriller</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR1">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+
+                </div>
+            </div>
+            <div class="modal fade" id="LR1" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Salaar</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/HihakYi5M2I?si=T-BmGFT_UMILGVfr"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>"Salaar" is an upcoming Indian action thriller film directed by Prashanth Neel. The
+                                    film stars Prabhas in the lead role. The story revolves around a powerful character
+                                    named Salaar, portrayed by Prabhas, and his journey filled with action and drama.
+                                </p>
+                                <h3>Directed by:</h3>
+                                <p>Prashanth Neel</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Prabhas as Salaar</li>
+                                    <li>Kriti Sanon as Ananya</li>
+                                    <li>Sanjay Dutt as Antagonist</li>
+                                    <li>Siddhant Chaturvedi as Inspector Raj</li>
+                                    <li>Srinidhi Shetty as Item Dancer</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/LR2.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Dunki</h2>
+                    <h6 class="des">Thriller</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR2">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR2" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Dunki</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/Zd69FfhBmSc?si=lBhG-QrwWLSsKufE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>"Dunki" is a gripping Indian crime thriller film directed by a renowned filmmaker.
+                                    The movie delves into the complex world of crime and deception, following the lives
+                                    of various characters entangled in a web of deceit and intrigue. As the narrative
+                                    unfolds, viewers are drawn into a suspenseful journey filled with unexpected twists
+                                    and turns. With its compelling storyline and stellar performances, "Dunki" promises
+                                    to keep audiences on the edge of their seats from start to finish.</p>
+                                <h3>Directed by:</h3>
+                                <p>Rajkumar Hirani</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>SHah Rukh Khan as Hardy</li>
+                                    <li>Taapsee Pannu as Manu </li>
+                                    <li>Boman Irani as Geetu</li>
+                                    <li>Vicky Kaushal as Sukhi</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/LR3.png" alt="Latest Release " class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Godzilla x Kong: The New Empire</h2>
+                    <h6 class="des">Sci-Fi Action Thriller</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR3">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR3" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Godzilla x Kong: The New Empire</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/qqrpMRDuPfc?si=datlQmXBPeArQb7P"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel
+                                    their intertwined origins and connection to Skull Island's mysteries.</p>
+                                <h3>Directed by:</h3>
+                                <p>Adam Wingard</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Rebecca Hall as Lene Andrews</li>
+                                    <li>Brian Tyree Henry as Bernie Hayes</li>
+                                    <li>Dan Steven as Trapper</li>
+                                    <li>Kaylee Hottle as Jia </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR4.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Animal </h2>
+                    <h6 class="des">Action Crime Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR4">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR4" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Animal</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/WuH9ahB-68Q?si=zKHSgcE-4Mv-fCiv"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>The hardened son of a powerful industrialist returns home after years abroad and vows
+                                    to take bloody revenge on those threatening his father's life.</p>
+                                <h3>Directed by:</h3>
+                                <p>Sandeep Reddy Vanga</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Ranir Kapoor as RAnvijay Singh</li>
+                                    <li>Anil Kapoor as Balbir Singh</li>
+                                    <li>Boddy Deol as Abrar Ul Haque</li>
+                                    <li>Rashmika Mandanna as Geetanjali Singh </li>
+                                    <li>Tripti Dimri as Zoya Riaz </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR5.avif" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Fighter</h2>
+                    <h6 class="des">Action Thriller</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR5">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR5" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Fighter</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/lAVYll_wBeY?si=VN5o9hKhzEbykTM-"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Top IAF aviators come together in the face of imminent danger, to form Air Dragons.
+                                    FIGHTER unfolds their camaraderie, brotherhood and battles, internal and external.
+                                </p>
+                                <h3>Directed by:</h3>
+                                <p>Siddharth Anand</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Hrithik Roshan as Squadron Leader Shamsher Pathania (Patty)</li>
+                                    <li>ADeepika Padukone as Squadron Leader Minal Rathore (Minni)</li>
+                                    <li>Anil Kapoor as Group Captain Rakesh Jaisingh (Rocky)</li>
+                                    <li>Ramon Chibb: Air Cmde Abhinder Bali CI AFA</li>
+                                    <li>Akshay Oberoi: Squadron Leader Basheer Khan (Bash) </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR6.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Shaitaan</h2>
+                    <h6 class="des">Horror Thriller</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR6">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR6" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Shaitaan</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/Yxe-mIVIwM4?si=zqAgaSMBHJPc2EgO"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>A timeless tale of battle between good and evil with a family embodying the forces of
+                                    righteousness while a man symbolizes malevolence.</p>
+                                <h3>Directed by:</h3>
+                                <p>Vikas Bahi</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Janki Bodiwala as Janvi</li>
+                                    <li>Ajay Devgn as Kabir</li>
+                                    <li>Jyotika as Jyoti</li>
+                                    <li>Madhavan as Vanraaj Kashyap</li>
+                                    <li>Angad Raaj as Dhruv</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR7.avif" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Yodha</h2>
+                    <h6 class="des">Action Drama Thriller</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR7">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR7" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Yodha</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/3AuB8RTfBJc?si=QKonwNGwKNss76jG"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>After terrorists hijack a passenger plane, an off-duty soldier aboard devises a
+                                    strategy to defeat the hijackers and ensure the passengers' survival when the engine
+                                    fails.</p>
+                                <h3>Directed by:</h3>
+                                <p>Sagar Ambre , Pushkar Ojha</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Siddharth Malhotra as Arun Katyal</li>
+                                    <li>Raashi Khanna as Priyamwada Katyal</li>
+                                    <li>Disha Patani as Laila</li>
+                                    <li>Kritika Bharadwaj as Tanya</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR8.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The Archies</h2>
+                    <h6 class="des">Comedy Drama Musical</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR8">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR8" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">The Archies</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/07zwmOypaV8?si=wc9p-pvyk6blBYiD"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Set in 1960s India, Archie and the gang navigate romance, friendship and the future
+                                    of Riverdale as developers threaten to destroy a beloved park.</p>
+                                <h3>Directed by:</h3>
+                                <p>Zoya Akhtar</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Agastya Nanda as Archie Andrew</li>
+                                    <li>Khushi Kapoor as Betty Cooper</li>
+                                    <li>Suhana Khan as Veronica Lodge</li>
+                                    <li>Vedang Raina as Reggie Mantle</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR9.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Article 370</h2>
+                    <h6 class="des">Action Drama Thriller</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR9">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR9" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Article 370</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/6Pf6RUmq7S0?si=HkaLV_XVxqeITOm3"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>After unrest in Kashmir in 2016, local agent Zooni Haksar is chosen for a secret
+                                    mission by Rajeshwari Swaminathan to end terrorism and economy conflict by
+                                    abrogating Article 370 without bloodshed.</p>
+                                <h3>Directed by:</h3>
+                                <p>Aditya Suhas Jambhale</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Yami Gautam as Zooni Haksar</li>
+                                    <li>Mohan Agashe as Jagmohan Patil</li>
+                                    <li>Sukhita Aiyar as Anuradha Patnaik</li>
+                                    <li>Raj Arjun as Khawar Ali</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR10.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Dune</h2>
+                    <h6 class="des">Action Adventure Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR10">
+                        <span class="play-icon">&#9658;</span> Watch Now</button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR10" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Dune</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/n9xhJrPXop4?si=zLc-floeqUQEG2S3"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>A noble family becomes embroiled in a war for control over the galaxy's most valuable
+                                    asset while its heir becomes troubled by visions of a dark future.</p>
+                                <h3>Directed by:</h3>
+                                <p>Denis Villeneuve</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Timothee Chalamet as Paul Atreides</li>
+                                    <li>Rebecca Ferguson as Lasu Jessica Atreides </li>
+                                    <li>Zendaya as Chani</li>
+                                    <li>Oscar Issac as Duke Leto Atreides</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR11.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Teri Baaton Mein Aisa Uljha Jiya</h2>
+                    <h6 class="des">Comedy Drama Romance </h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR11">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR11" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Teri Baaton Mein Aisa Uljha Jiya</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/w_N6d4ec79c?si=bbTD7PKgJAK9Zp0R"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Aryan is not able to find a perfect life partner. He meets a perfect girl, Sifra,
+                                    during an official assignment in the US and falls in love with her only to discover
+                                    later that it's an impossible love story.</p>
+                                <h3>Directed by:</h3>
+                                <p>Amit Joshi , Aradhana Sah</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Sahid Kapoor as Aryan Agnohotri</li>
+                                    <li>Kriti Sanon as Sifra</li>
+                                    <li>Dharmendra as Dadu</li>
+                                    <li>Dimple Kapadia as Urmila Shukla</li>
+                                    <li>Rakesh Bedi as Aryan's Father</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR12.jpeg
+                " alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Crew</h2>
+                    <h6 class="des">Comedy Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR12">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR12" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Crew</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/3uvfq4Cu8R8?si=p7bLKbvDGG0qoXVy"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Follows three hard-working women as their destinies lead to some unwarranted
+                                    situations and end up caught in a web of lies.</p>
+                                <h3>Directed by:</h3>
+                                <p>Rajesh A Krishnan</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Tabu as Geeta Sethi</li>
+                                    <li>Kareena Kapoor as Jasmine</li>
+                                    <li>Kriti Sanon as Divya </li>
+                                    <li>Diljit Dosanjh as Jaiveer Singh</li>
+                                    <li>Kapil Sharama as Arun Sethi</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR13.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Main Atal Hoon</h2>
+                    <h6 class="des">Biography Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR13">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR13" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Main Atal Hoon</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/zasckclx0Gc?si=OXMB1Rwv7IYTF3lx"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                Follows the extraordinary life and political journey of Shri Atal Bihari Vajpayee, an
+                                iconic figure in Indian politics and delves into the multifaceted persona of Vajpayee
+                                Ji, capturing his essence as a poet, a gentleman, and a statesman.
+                                <h3>Directed by:</h3>
+                                <p>Ravi Jadhav</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Pankaj Tripathi as Atal Bihari Vajpayee</li>
+                                    <li>Benedict Garrett ad bBritish Forest Officer</li>
+                                    <li>Rajesh Dubey as Bharat Ratna Shri Nanaji Deshmukh</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR14.avif" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Bastar: The Naxal Story</h2>
+                    <h6 class="des">Action Crime Drama.</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR14">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR14" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Bastar: The Naxal Story</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/5KfJWVcnbdI?si=AEjC927XD7f-JgSA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Based on the real-life incidents of Naxals in Chattisgarh - The Bastar rebellion
+                                    broke out in 1910 in present day Chattisgarh.</p>
+                                <h3>Directed by:</h3>
+                                <p>Sudipto Sen , Vipul Amrutlal Shah</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Purnendu Bhattacharya as Narayan Bagchi</li>
+                                    <li>Sanjay Borkar as Gynaecologist</li>
+                                    <li>Vkrant Chaturvedi as Arunabh Mukherjee</li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/Images/LR15.jpg" alt="Latest Release" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Madgaon Express</h2>
+                    <h6 class="des">Comedy Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#LR15">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="LR15" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Madgaon Express</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/B7VP47oCZfE?si=Z2yTwfTcwE7D6P4R"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>The journey of three childhood friends who embark on a trip to Goa that goes
+                                    completely off-track</p>
+                                <h3>Directed by:</h3>
+                                <p>Kunal Kemmu</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Divyendu Sharma as Dhanush Sawant</li>
+                                    <li>Pratik Gandhi as Pratik Goradia</li>
+                                    <li>Avinash Tiwary as Ayush Gupta</li>
+                                    <li>Nora Fatehi as Tasha</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <h1 class="title">Top 10 in india Today - Hindi</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="./assets/Images/T1.jpg" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Lootere</h2>
+                    <h6 class="des">Action</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T1">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T1" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Lootere</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/4cu-eB_9AKk?si=k1I9qT7qqjp2p736"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Off the coast of Somalia, when the passengers of an ill-fated ship are taken hostages
+                                    by pirates, an unlikely hero must step forward to save them all.</p>
+                                <h3>Directed by:</h3>
+                                <p>Hansal Mehta , Shailesh R Singh</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Martial Batchmen Tchana as Barkhad</li>
+                                    <li>Gaurav K. Sharma as Bilaal</li>
+                                    <li>Avanish Pandey as Rounal Pradhan</li>
+                                    <li>Naresh Mallik as Gulrez Singh</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/LR1.jpg" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Salaar</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T2">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T2" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Salaar</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/HihakYi5M2I?si=T-BmGFT_UMILGVfr"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>"Salaar" is an upcoming Indian action thriller film directed by Prashanth Neel. The
+                                    film stars Prabhas in the lead role. The story revolves around a powerful character
+                                    named Salaar, portrayed by Prabhas, and his journey filled with action and drama.
+                                </p>
+                                <h3>Directed by:</h3>
+                                <p>Prashanth Neel</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Prabhas as Salaar</li>
+                                    <li>Kriti Sanon as Ananya</li>
+                                    <li>Sanjay Dutt as Antagonist</li>
+                                    <li>Siddhant Chaturvedi as Inspector Raj</li>
+                                    <li>Srinidhi Shetty as Item Dancer</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T2.webp" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">12Th Fail</h2>
+                    <h6 class="des">Biography Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T3">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T3" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">12Th Fail</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/WeMJo701mvQ?si=auSbBS-DvNprWAoE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>The real-life story of IPS Officer Manoj Kumar Sharma and IRS Officer Shraddha Joshi.
+                                </p>
+                                <h3>Directed by:</h3>
+                                <p>Vidhu Vinod Chopra , Jaskunwar Kohli , Anurag Pathak</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Vikrant Massey as Manoj Sharma</li>
+                                    <li>Medha Shankr as Shraddha Joshi</li>
+                                    <li>Anant Joshi as Pritam Pandey</li>
+                                    <li>Anshuman Pushkar as Gaurinandan</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T3.jpg" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Aarya</h2>
+                    <h6 class="des">Action Crime Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T4">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T4" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Aarya</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/IG25jfuNF_0?si=WO-1vKrSuqNvJNeH"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>When her world suddenly turns upside down, will Aarya become the very thing she
+                                    hated?How far will she go to survive and protect her family?</p>
+                                <h3>Directed by:</h3>
+                                <p>Ram Madhavani</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Sushmita Sen as Aarya Sreen</li>
+                                    <li>Vikas Kumar as ACP Khan</li>
+                                    <li>Virti Vaghani as Arundhati</li>
+                                    <li>Viren Vazirani as Veer</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T4.webp" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Dance + </h2>
+                    <h6 class="des">Reality Competition</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T5">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T5" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Dance +</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/VgFUao_G3Xg?si=aQkElsc2MKaNSQ1s"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>The hunt for India's new dancing superstars is on ! With high-end tech and innovative
+                                    dance acts,emerging talents bring thier A-game to bag the coveted title</p>
+                                <h3>Directed by:</h3>
+                                <p>Ashim Sen</p>
+                                <h3>Host:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Raghav Juyal</li>
+                                    <li>Sugandha Mishra</li>
+                                    <li>Sushant Khatri</li>
+                                    <li>Tushar Shetty</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T5.webp" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Karmma Calling</h2>
+                    <h6 class="des">Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T6">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T6" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Karmma Calling</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/d_UTOLPcRKk?si=yBH8tvv9l_iiqrrK"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>An emotionally troubled young woman sets out to exact revenge against the people who
+                                    wronged her father.</p>
+                                <h3>Directed by:</h3>
+                                <p>Ruchi Narain</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Raveena Tandon as Indrani Kothari</li>
+                                    <li>Namrata Sheth as Karma Talwar</li>
+                                    <li>Varun Sood as Ahaan Kothari</li>
+                                    <li>Vikramjeet Virk as Sameer</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T6.webp" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Meter</h2>
+                    <h6 class="des">Action Comedy Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T7">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T7" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Meter</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/B7VP47oCZfE?si=Z2yTwfTcwE7D6P4R"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Arjun Kalyan reluctantly becomes a police officer to fulfill his father's dream, then
+                                    an unexpected turn of events forces him to go head-to-head with the home minister of
+                                    the state.</p>
+                                <h3>Directed by:</h3>
+                                <p>Ramesh Kadhuri</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Kiran Abbavaram as Arjun Kalyan</li>
+                                    <li>Keshav Deepak as Doctor</li>
+                                    <li>Pavan as Home Minister Kantam Baireddy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T7.webp" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The Legend of Hanuman</h2>
+                    <h6 class="des">Animation Action Adventure</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T8">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T8" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">The Legend of Hanuman</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/NUSRDu9Q91U?si=2k_GvFM4FXeb-vI1"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>When the power-hungry Ravan tore through the world to unleash evil, in his way stood
+                                    a humble vaanar awoken to his divinity to become an immortal legend.</p>
+                                <h3>Directed by:</h3>
+                                <p>Sharad Devrajan , Jeevan J. Kang , Charuvi Agrawal</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Daman Baggan as Hanuman</li>
+                                    <li>Sharad Kelkar as Ravan</li>
+                                    <li>Sanket Mhatre as Ram</li>
+                                    <li>Shakti Singh as Jambhavan</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T8.webp" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Shiddat</h2>
+                    <h6 class="des">Romance</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T9">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T9" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Shiddat</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/x60tMH7Pz9s?si=pe0OOtSFKfu6mzes"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>A passionate love story involving two couples which highlights the contrast between a
+                                    regular, mature yet egoistic husband and a unique, happy go lucky, enamored,
+                                    overzealous boy chasing after the love of his life.</p>
+                                <h3>Directed by:</h3>
+                                <p>Kunal Deshmukh</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Sunny Kaushal as Jaggi</li>
+                                    <li>Radhika Madan as Kartika</li>
+                                    <li>Mohit Raina as Gautam</li>
+                                    <li>Diana Panty as Ira</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/Images/T9.webp" alt="Top 10" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Housefull 4</h2>
+                    <h6 class="des">Action Comedy Drama</h6>
+                    <button class="watch-now-btn" data-bs-toggle="modal" data-bs-target="#T10">
+                        <span class="play-icon">&#9658;</span> Watch Now
+                    </button>
+                </div>
+            </div>
+            <div class="modal fade" id="T10" tabindex="-1" aria-labelledby="salaarModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title mx-auto" id="salaarModalLabel">Housefull 4</h3>
+                        </div>
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <iframe style="height: 300px; width: 400px; border-radius: 20px;" width="560" height="315"
+                                src="https://www.youtube.com/embed/gcHH34cEl3Y?si=eQ5tgjpKr_4iTqis"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="mt-3 text-center">
+                                <h3>Introduction:</h3>
+                                <p>Three couples who get separated from each other due to an evil ploy, reincarnate
+                                    after 600 years and meet each other as history repeats itself again and their
+                                    respective partners get mixed up this time.</p>
+                                <h3>Directed by:</h3>
+                                <p>Farhad Samji</p>
+                                <h3>Cast:</h3>
+                                <ul class="list-unstyled">
+                                    <li>Akshay Kumar as Prince Bala Dev Singh</li>
+                                    <li>Riteish Deshmukh as Bangdu Maharaj</li>
+                                    <li>Bobby deol as Dharamputra</li>
+                                    <li>Kriti Sanon as Princess Madhu</li>
+                                    <li>Pooja Hedge as Princess Mala</li>
+                                    <li>Kriti Kharbanda as Princess Meena</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn mx-auto" style="background-color: #0c111b; color: white;"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        <script src="data.js"></script>
+        <script src="app.js"></script>
+</body>
+
+</html>
